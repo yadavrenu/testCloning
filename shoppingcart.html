@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Shopping Cart</title>
+        <link rel="stylesheet" href="css/shoppingcart.css">
+    </head>
+    <body>
+        <div id="header">
+            <h1>Welcome to MaggBasket</h1> 
+        </div>
+        <div id="content">
+            <div id="search">
+                        <center><br /></center>
+                    
+                    <input type="text" id="myInput" placeholder="Enter here" >
+                    <button onclick="mySearch()">Search</button>
+                    <div id="display">
+                     
+                    
+                    </div>
+                   
+            </div>
+            <div id="cart">
+                    <h2>
+                        <center>Items in your Cart</center>
+                    </h2>
+                   <div id="cartItems"> 
+
+                   </div>
+                   <div id="Checkout">
+                       <!-- <a href="shoppingcart2.html"> -->
+                       <button id="checkout" onclick="finalList()" >Checkout</button>
+                    </div>
+            </div>
+            </div>
+        <div id="answer">
+                <div id="final">
+
+
+                </div>
+                <div id="total">
+          
+                </div>
+        </div>
+        <div id="footer">
+            <div class="buttons">
+                <button onclick="myReset()" id="reset"> Reset</button>
+                <button onclick="toCart()" id="tocart">Add to cart</button>
+              </div>
+        </div>
+        <script src="js/test.js"></script>
+    </body>
+</html>
